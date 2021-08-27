@@ -1,14 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Courier New', Courier, monospace;
+body {
+  font-family: "Roboto", Courier, monospace;
+  letter-spacing: 2px;
+  line-height: normal;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-color: #5d8192;
+}
+
+.underline {
+  border-bottom: 3px solid black;
 }
